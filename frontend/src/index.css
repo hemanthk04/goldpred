@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Regular.woff2') format('woff2');
+  font-weight: 400; /* Regular weight */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Bold.woff2') format('woff2');
+  font-weight: 700; /* Bold weight */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Italic.woff2') format('woff2');
+  font-weight: 400; /* Regular weight with Italics */
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/GeistVariable.woff2') format('woff2');
+  font-weight: 100 900; /* Weight range for variable font */
+  font-display: swap;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  font-feature-settings: 'ss01';
+}
+

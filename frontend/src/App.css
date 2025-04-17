@@ -1,0 +1,17 @@
+
+body {
+  background: 
+    /* Grid pattern */
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 50%) center/50px 50px, 
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 50%) center/50px 50px;
+
+  /* Gradient overlay */
+  position: relative;
+  background-color: #FFFFFF;
+  background-blend-mode: overlay;
+}
+
+.container {
+  position: relative;
+  z-index: 1; /* Ensures content stays above the overlay */
+}
